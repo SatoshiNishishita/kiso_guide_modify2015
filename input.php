@@ -26,7 +26,7 @@ mysql_query($sql,$db);
 //動画の変更を受け取る by spot_movie.phpから
 $movie_id = $_POST['movieid'];
 $movie_indication = $_POST['movieindication'];
-$sql = "UPDATE movie SET movie_boolean='$moviei_ndication' WHERE movie_id =  '$movie_id'";
+$sql = "UPDATE movie SET movie_boolean='$movie_indication' WHERE movie_id =  '$movie_id'";
 mysql_query($sql,$db);
 ?>
 
